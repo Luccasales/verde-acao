@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+button {
+  background-color: #66BB6A;
+  color: #FFFFFF;
+}
+
+.header {
+  background-color: #66BB6A;
+  color: #FFFFFF;
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+}
+
+h1 {
+  display: inline-block;
+  padding-left: 160px;
+  margin-top: 30px;
+}
+
+.nav {
+  display: inline-block;
+  min-width: 50%;
+  text-align: right;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.Home {
+  background-image: url("./Assets/Floresta.png");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  padding-top: 300px;
+}
+
+.TitleHome {
+  color: #FFFFFF;
+  font-family: "Sansita Swashed", system-ui;
+}
+
+.ParagrafoHome {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 25%;
+  margin-left: 700px;
+}
+
+.buttonHome {
+  width: 405.01px;
+  height: 90.08px;
+  border-radius: 68px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.buttonHome:hover {
+  background-color: #366439;
+  color: black;
+}/*# sourceMappingURL=style.css.map */

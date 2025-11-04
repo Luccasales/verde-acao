@@ -83,4 +83,79 @@ a {
 .buttonHome:hover {
   background-color: #366439;
   color: black;
+}
+
+.atividades {
+  align-items: center;
+  text-align: center;
+  padding-top: 60px;
+  background-color: #F1F8E9;
+}
+.atividades .cards {
+  display: inline-block;
+  vertical-align: top;
+  align-items: center;
+  margin-top: 40px;
+  margin-right: 40px;
+  width: 20vw;
+  height: 50vh;
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.25);
+  padding-bottom: 6px;
+  border-radius: 15px;
+}
+.atividades .imagemCards {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+.atividades .titleCard {
+  margin-top: 15px;
+}
+.atividades .textCard {
+  display: block;
+  align-items: center;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.atividades .cardButton {
+  display: inline-block;
+  padding: 10px 30px;
+  width: 149px;
+  height: 49px;
+  border-radius: 29px;
+  cursor: pointer;
+  border: none;
+}
+
+.cadastre {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding-top: 150px;
+  background-color: #F1F8E9;
+}
+.cadastre .form {
+  display: inline-block;
+  text-align: left;
+}
+.cadastre .form .input {
+  width: 695px;
+  height: 54px;
+  padding: 10px 15px;
+  display: block;
+  border-radius: 25px;
+  text-align: left;
+  margin-top: 5px;
+  border: none;
+}
+.cadastre .cadastreButton {
+  width: 695px;
+  height: 81px;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

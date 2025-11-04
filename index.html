@@ -20,7 +20,7 @@
       <nav class="nav">
         <ul>
           <li><a href="#atividades">Atividades</a></li>
-          <li><a href="#">Cadastre-se</a></li>
+          <li><a href="#cadastre">Cadastre-se</a></li>
         </ul>
       </nav>
     </header>
@@ -33,6 +33,79 @@
           reais!
         </p>
         <button class="buttonHome">Quero ser voluntario</button>
+      </section>
+
+      <section class="atividades" id="atividades">
+        <h2 class="titleProjects">Projetos</h2>
+
+        <article class="cards">
+          <img
+            src="./Assets/girassol.png"
+            alt="Imagem de girassol"
+            class="imagemCards"
+          />
+          <h3 class="titleCard">Plantio de mudas</h3>
+          <p class="textCard">Cada muda plantada ajuda a restaurar o meio ambiente</p>
+          <button class="cardButton">Veja mais</button>
+        </article>
+
+        <article class="cards">
+          <img
+            src="./Assets/criancas.png"
+            alt="Imagem de criança com cartazes"
+            class="imagemCards"
+          />
+          <h3 class="titleCard">Educação Ambiental</h3>
+          <p class="textCard">Promove oficinas e rodas de conversas</p>
+          <button class="cardButton">Veja mais</button>
+        </article>
+
+        <article class="cards">
+          <img
+            src="./Assets/plantacao.png"
+            alt="Imagem de plantação"
+            class="imagemCards"
+          />
+          <h3 class="titleCard">Cuidados</h3>
+          <p class="textCard">Ajude a manter areas preservadas</p>
+          <button class="cardButton">Veja mais</button>
+        </article>
+
+        <article class="cards">
+          <img
+            src="./Assets/cardFlorestas.png"
+            alt="imagem de floresta"
+            class="imagemCards"
+          />
+          <h3 class="titleCard">Mapeamento</h3>
+          <p class="textCard">Indentifique areas que precisam de mapeamento</p>
+          <button class="cardButton">Veja mais</button>
+        </article>
+      </section>
+
+      <section class="cadastre" id="cadastre">
+        <h3 class="cadastreTittle">Cadastre-se como voluntário</h3>
+        <p class="cadastreText">Faça parte de ações que transformam o mundo. Com pequenas atitudes, você pode gerar grandes impactos na natureza e na comunidade</p>
+        <form action="" class="form">
+          <label for="">Nome:</label>
+          <input type="text" placeholder="Nome" class="input">
+
+          <label for="">E-mail:</label>
+          <input type="E-mail" placeholder="E-mail" class="input">
+
+          <label for="">Cidade:</label>
+          <input type="text" placeholder="Cidade" class="input">
+
+          <label for="">Atividade:</label>
+          <select name="" id="" placeholder="Selecione atividade" class="input">
+            <option value="AgroNegocio">Agronegocio</option>
+            <option value="Educacao">Educação ambiental</option>
+            <option value="MeioAmbiente">Meio ambiente</option>
+            <option value="Mapeamento">Mapeamento</option>
+          </select>
+          
+          <button class="cadastreButton">Cadastrar</button>
+        </form>
       </section>
     </main>
   </body>

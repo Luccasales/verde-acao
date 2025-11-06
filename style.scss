@@ -72,7 +72,7 @@ a{
         margin-top: 25px;
         margin-bottom: 25px ;
         width: 25%;
-        margin-left: 700px;
+        margin-left: 800px;
     }
 
     .buttonHome{
@@ -105,7 +105,11 @@ a{
            box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.25);
             padding-bottom: 6px;
             border-radius: 15px;
+            transition: 0.5s;
 
+        }
+        .cards:hover{
+            transform: scale(1.1);
         }
         .imagemCards{
             width: 100%;
@@ -125,8 +129,8 @@ a{
         .cardButton{
             display: inline-block;
             padding: 10px 30px;
-            width: 149px;
-            height: 49px;
+            width: 9.31vw;
+            height: 5vh;
             border-radius: 29px;
             cursor: pointer;
             border: none;
@@ -141,13 +145,23 @@ a{
         padding-top: 150px;
         background-color: #F1F8E9;
     
+    .cadastreTitle{
+        color: #2A2A2A;
+    }
+
+    .cadastreText{
+       color: #767676;
+       margin-top: 10px;
+    }
+    
     .form{
+        margin-top: 50px;
         display: inline-block;
         text-align: left;
 
         .input{
-            width: 695px;
-            height: 54px;
+            width: 33vw;
+            height: 5vh;
             padding: 10px 15px;
             display: block;
            border-radius: 25px;
@@ -158,8 +172,8 @@ a{
         
     }
     .cadastreButton{
-            width: 695px;
-            height: 81px;
+            width: 33vw;
+            height: 5vh;
             align-items: center;
             text-align: center;
             display: inline-block;
@@ -169,4 +183,13 @@ a{
             cursor: pointer;
 
         }
+    }
+
+    //footer
+    .footer{
+        background-color: $cor-principal;
+        color: $cor-branca;
+        width: 100%;
+        text-align: center;
+        padding: 30px;
     }
